@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://www.getahead.ltd.uk/dwr/dwr20.dtd">
+<dwr>
+<!--
+将java代码开放给其他人访问 的配置
+我们可以在前端代码中通过这种方式访问这个类中的方法
+-->
+	<allow>
+<!--		通过Spring框架访问Bean-->
+		<create javascript="judgeService" creator="spring">
+			<param name="beanName" value="judgeService" />
+			<include method="getResult"/>
+			<include method="fetchDescriptions"/>
+			<include method="findProblemSimple"/>
+			<include method="getRankInfo"/>
+            <include method="getContestTimeInfo"/>
+            <include method="getProblemStatus"/>
+		</create>
+		<convert match="judge.bean.Description" converter="bean" >
+			<param name="include" value="description,input,output,sampleInput,sampleOutput,hint"></param>
+		</convert>
+	</allow>
+</dwr>
+ 

@@ -1,0 +1,30 @@
+version: "3"
+services:
+  voj-mysql:
+    image: mysql:5.7
+    container_name: voj-mysql
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root #设置root帐号密码
+      - TZ=Asia/Shanghai
+    ports:
+      - 3306:3306
+    volumes:
+      - /mydata/vjudge/mysql/data/db:/var/lib/mysql #数据文件挂载
+      - /mydata/vjudge/mysql/data/conf:/etc/mysql/conf.d #配置文件挂载
+      - /mydata/vjudge/mysql/log:/var/log/mysql #日志文件挂载
+
+  voj-tomcat:
+    image: tomcat:8.0.20
+    container_name: voj-tomcat
+    restart: always
+    depends_on:
+      - voj-mysql
+    volumes:
+      - /mydata/vjudge/tomcat/webapps:/usr/local/tomcat/webapps
+      - /mydata/vjudge/data:/data
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - 80:8080

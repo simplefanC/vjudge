@@ -1,0 +1,335 @@
+{
+  LightOJ :
+  {
+    contextNumber : 1, // default value is 1
+    accounts :
+    [
+      {
+        id : "id1@gmail.com",
+        password : "123456",
+        isPublic : true // default value is true
+      },
+      {
+        id : "id2@gmail.com",
+        password : "123456"
+      }
+    ]
+  },
+
+  HUST :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  POJ :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "jianghuchuan",
+        password : "123456ecnu"
+      },
+      {
+        id : "maolilan",
+        password : "123456ecnu"
+      },
+      {
+        id : "aliboshi",
+        password : "123456ecnu"
+      }
+    ]
+  },
+
+  ZOJ :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  SPOJ :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+  Tyvj :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "guest",
+        password : "123456"
+      }
+    ]
+  },
+  UVALive :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  UVA :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  SGU :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "010203",
+        password : "123456"
+      }
+    ]
+  },
+
+  HDU :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "hustoj",
+        password : "freeproblemset"
+      },
+      {
+        id : "ecnuv1",
+        password : "123456ecnu"
+      },
+      {
+        id : "gongtengxinyi",
+        password : "123456ecnu"
+      }
+    ]
+  },
+
+  HYSBZ :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  CodeForces :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  Aizu :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  NBUT :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "jianghuchuan",
+        password : "123456ecnu"
+      },
+      {
+        id : "maolilan",
+        password : "123456ecnu"
+      }
+    ]
+  },
+
+  FZU :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  CSU :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  SCU :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "ecnuv1",
+        password : "123456ecnu"
+      }
+    ]
+  },
+
+  UESTC :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "1234567890qwertyuiopasdfghjklzxcvbnm1234" // Encrypted password in browser side
+      }
+    ]
+  },
+
+  URAL :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {  id : "12345AB"  },
+      {  id : "67890CD"  }
+    ]
+  },
+
+  ACdream :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "id1",
+        password : "123456"
+      }
+    ]
+  },
+
+  LOCAL :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "guest",
+        password : "123456"
+      }
+    ]
+  },
+
+  JSK :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "+8615079084006",
+        password : "123456ecnu"
+      },
+      {
+        id : "+8615294203791",
+        password : "123456ecnu"
+      }
+    ]
+  },
+
+  MXT :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "ecnuv2@163.com",
+        password : "123456ecnu"
+      },
+      {
+        id : "ecnuv3@163.com",
+        password : "123456ecnu"
+      },
+      {
+        id : "ecnuv4@163.com",
+        password : "123456ecnu"
+      }
+    ]
+  },
+
+  TKOJ :
+  {
+    contextNumber : 1,
+    accounts :
+    [
+      {
+        id : "ecnuv2",
+        password : "123456ecnu"
+      },
+      {
+        id : "fruitshampoo",
+        password : "123456ecnu"
+      },
+      {
+        id : "11204902153",
+        password : "123456ecnu"
+      },
+      {
+        id : "onz11223",
+        password : "123456ecnu"
+      }
+    ]
+  }
+}
+
